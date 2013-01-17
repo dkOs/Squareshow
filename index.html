@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <title>Tutorials</title>
+
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/jquery.ui.js"></script>
+    <script src="jquery.squaredshow.js"></script>
+    <link href='jquery.squaredshow.css' rel='stylesheet' type='text/css'>
+
+   <script>
+
+       $(document).ready(function () {
+
+           $('#tip').squaredshow({
+               nbrLines: 3,
+               imgUrl: ['img/cup-coffee-icon.png'
+               , 'img/pabodie-field-notes-icon.png'
+               , 'img/tracking-route-icon.png'],
+               imgWidth: 100,
+               titleMsg: 'Hello World',
+               titlePosition: 'left',
+               titleMargin: 40,
+               titleFontSize: 100,
+               annimation: true,
+               annimationInterval: 1000,
+               annimationSpeed: 'fast',
+               ellipsisText: "..."
+           });
+
+       });
+   </script>
+
+ </head>
+ <body>
+ 	
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="tip"></div>
+   
+ </body>
+ </html>

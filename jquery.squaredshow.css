@@ -1,0 +1,31 @@
+
+
+div.OverBlock { 
+    background-color: #111111;
+    opacity:0.6;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+	/* Firefox */
+	-moz-transition: all 0.4s ease;
+	/* WebKit */
+	-webkit-transition: all 0.4s ease;
+	/* Opera */
+	-o-transition: all 0.4s ease;
+	/* Standard */
+	transition: all 0.4s ease;
+}
+  		
+div.OverBlock:hover {
+	opacity: 0;
+  			
+	/* Firefox */
+	-moz-transform: scale(1) rotate(0deg) translate(0px);
+	/* WebKit */
+	-webkit-transform: scale(1) rotate(0deg) translate(0px);
+	/* Opera */
+	-o-transform: scale(1) rotate(0deg) translate(0px);
+	/* Standard */
+	transform: scale(1) rotate(0deg) translate(0px);
+	z-index: 1000;  			
+}                
+        
